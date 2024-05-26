@@ -1,13 +1,9 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import PersonalInformation from "@/components/personal-info/page";
 
 export default function Home() {
   return (
     <main>
-      <h1 className="text-2xl font-bold text-green-500"> Cura Flux</h1>
-      Hello Ayo Well done
-
-      <Button>Hello Ayo</Button>
+      <PersonalInformation/>
     </main>
   );
 }
