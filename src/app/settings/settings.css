@@ -1,0 +1,27 @@
+.nav_tab {
+  content: "";
+}
+
+.nav_tab::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  background-color: blue;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+.nav_tab:active::after,
+.nav_tab:hover::after {
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.nav_tab {
+  position: relative;
+  transition: all 0.4s;
+}
+
